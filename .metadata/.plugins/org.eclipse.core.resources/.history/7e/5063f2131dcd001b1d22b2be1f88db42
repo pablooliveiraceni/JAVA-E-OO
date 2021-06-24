@@ -1,0 +1,16 @@
+package Exercicios;
+
+public class programaComBreak {
+	
+	public static void main(String[] args) {
+		 
+		for(int teste = 0; teste < 5; teste++) {
+			if(teste > 2) {
+				break;
+			}
+			System.out.println("oi");
+		}
+		
+	}
+
+}
